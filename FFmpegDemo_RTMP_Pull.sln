@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFmpegDemo_RTMP_Pull", "FFmpegDemo_RTMP_Pull\FFmpegDemo_RTMP_Pull.csproj", "{09BA0CF4-B282-4885-8995-32C341121AC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib_FFmpeg", "Lib_FFmpeg", "{5691963C-7196-4493-8B97-8EC007C472EB}"
+	ProjectSection(SolutionItems) = preProject
+		FFmpeg\bin\x64\avcodec-58.dll = FFmpeg\bin\x64\avcodec-58.dll
+		FFmpeg\bin\x64\avdevice-58.dll = FFmpeg\bin\x64\avdevice-58.dll
+		FFmpeg\bin\x64\avfilter-7.dll = FFmpeg\bin\x64\avfilter-7.dll
+		FFmpeg\bin\x64\avformat-58.dll = FFmpeg\bin\x64\avformat-58.dll
+		FFmpeg\bin\x64\avutil-56.dll = FFmpeg\bin\x64\avutil-56.dll
+		FFmpeg\bin\x64\postproc-55.dll = FFmpeg\bin\x64\postproc-55.dll
+		FFmpeg\bin\x64\swresample-3.dll = FFmpeg\bin\x64\swresample-3.dll
+		FFmpeg\bin\x64\swscale-5.dll = FFmpeg\bin\x64\swscale-5.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFmpegDemo", "FFmpegDemo\FFmpegDemo.csproj", "{B84608C5-6860-48E5-8102-B6585E7DAE08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09BA0CF4-B282-4885-8995-32C341121AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BA0CF4-B282-4885-8995-32C341121AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BA0CF4-B282-4885-8995-32C341121AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BA0CF4-B282-4885-8995-32C341121AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B84608C5-6860-48E5-8102-B6585E7DAE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84608C5-6860-48E5-8102-B6585E7DAE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84608C5-6860-48E5-8102-B6585E7DAE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84608C5-6860-48E5-8102-B6585E7DAE08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {029F279D-EA9B-489C-A48C-DDA5B84F7C5D}
+	EndGlobalSection
+EndGlobal
